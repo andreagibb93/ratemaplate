@@ -18,7 +18,7 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONObject;
 
 public class RegisterActivity extends AppCompatActivity {
-    //db helper class
+
     //data fields
     EditText e1,e2,e3,e4;
     //submit register button

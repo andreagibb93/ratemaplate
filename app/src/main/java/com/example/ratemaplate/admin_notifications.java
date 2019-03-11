@@ -35,23 +35,19 @@ public class admin_notifications extends AppCompatActivity {
 
             flaggedContent.add("User reported inappropriate comment");
 
-
             flaggedContent.add("User reported inappropriate plate");
-
 
             flaggedContent.add("User reported inappropriate comment");
 
-
             flaggedContent.add("User reported inappropriate plate");
 
+            flaggedContent.add("User reported inappropriate userID1238493");
+
+            flaggedContent.add("User reported inappropriate plate");
 
             flaggedContent.add("User reported inappropriate comment");
 
-
-            flaggedContent.add("User reported inappropriate plate");
-
-
-
+            initRecyclerView();
         }
 
         private void initRecyclerView() {

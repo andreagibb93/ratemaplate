@@ -10,7 +10,7 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="395dp"
-        android:layout_height="500dp"
+        android:layout_height="613dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="86dp"
         android:layout_marginEnd="8dp"
@@ -25,14 +25,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="133dp"
-        android:layout_marginTop="118dp"
+        android:layout_marginTop="33dp"
         android:layout_marginEnd="151dp"
-        android:layout_marginBottom="86dp"
+        android:layout_marginBottom="16dp"
         android:text="Flagged Complaints"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/recyclerView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
