@@ -30,14 +30,14 @@ public class PlateActivity extends AppCompatActivity {
             Log.d(TAG, "getIncomingIntent: found intent");
 
             // gets the image intent
-            String imageUrl = getIntent().getStringExtra("image_url");
+            int imageUrl = getIntent().getIntExtra("image_url", 0);
             String imageName = getIntent().getStringExtra("image_name");
             Log.d("images", imageName + imageUrl);
             setImage(imageUrl, imageName);
         }
     }
 
-    private void setImage(String imageUrl, String imageName) {
+    private void setImage(int imageUrl, String imageName) {
         Log.d(TAG,"setImage: setting the image and to widgets");
 
         // sets the text view

@@ -12,12 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".AdminViewFlagged"></activity>
+        <activity android:name=".AdminPages.AdminViewFlagged"></activity>
         <activity android:name=".PlateActivity" />
-        <activity android:name=".admin_notifications" />
-        <activity android:name=".matches_activity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".AdminPages.admin_notifications" />
+        <activity android:name=".MatchesActivity" />
+        <activity android:name=".RegisterLoginPages.RegisterActivity" />
+        <activity android:name=".RegisterLoginPages.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
