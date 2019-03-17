@@ -46,11 +46,11 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //convert user input to strings
-                String s1 = e1.getText().toString();
-                String s2 = e2.getText().toString();
+                String email = e1.getText().toString();
+                String password = e2.getText().toString();
 
                 //user alert, fields are empty
-                if(s1.equals("") || s2.equals("")) {
+                if(email.equals("") || password.equals("")) {
                     Toast.makeText(getApplicationContext(),"Fields are empty", Toast.LENGTH_SHORT).show();
                     return;
                 }
@@ -58,15 +58,18 @@ public class LoginActivity extends AppCompatActivity {
                 // Make a new request to the server
                 RequestQueue rq = Volley.newRequestQueue(getApplicationContext());
                 StringRequest sr = new StringRequest(Request.Method.GET,
-                        "http://10.0.2.2:8080/login_user?username=" + s1 + "&email=" + s2 + "&password=",
+                        "http://10.0.2.2:8080/login_user?email=" + email + "&password=" + password,
                         new Response.Listener<String>() {
                             @Override
                             public void onResponse(String response) {
                                 try {
                                     JSONObject object = new JSONObject(response);
+                                    if (!object.getBoolean("error")) {
+                                        Intent intent = new Intent(getApplicationContext(), MatchesActivity.class);
+                                        startActivity(intent);
+                                    }
                                     Toast.makeText(getApplicationContext(), object.getString("response"), Toast.LENGTH_SHORT).show();
                                 } catch (Exception e) { }
-
                             }
                         }, new Response.ErrorListener() {
                     @Override

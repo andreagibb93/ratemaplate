@@ -12,6 +12,7 @@ app.get('/create_user', function (req, res) {
     let username = req.query.username;
     let password = req.query.password;
 
+    // if the form is empty
     if (email == null) {
         res.send('{response: "No email supplied", error: true}');
         return;
@@ -27,6 +28,7 @@ app.get('/create_user', function (req, res) {
         return;
     }
 
+    //
     console.log(email);
     console.log(username);
     console.log(password);
@@ -46,6 +48,25 @@ app.get('/create_user', function (req, res) {
     });
 
     res.send('{response: "User created successfully", error: false}');
+});
+
+app.get('/login_user', function(req, res) {
+    let sql = "SELECT COUNT(*) AS count FROM User WHERE email=? AND password=?;";
+
+    let email = req.query.email;
+    let password = req.query.password;
+
+    db.all(sql, [email, password], function(err, rows) {
+        if (err) throw err;
+
+        rows.forEach(function(row) {
+            if (row.count > 0) {
+                res.send('{response: "Logged in", error: false}');
+            } else {
+                res.send('{response: "Invalid email or password", error: true}');
+            }
+        });
+    })
 });
 
 function check_email(email) {
