@@ -2,23 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="500ce83a-31a3-485b-9c8c-63a4bf832fdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/java/com/example/ratemaplate/FoodItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/res/drawable-v24/chicken.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/res/drawable-v24/chickendinos.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/res/drawable-v24/hameggs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/res/drawable/search.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/res/menu/example_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/androidTest/java/com/example/labtest/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/java/com/example/labtest/controller/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/java/com/example/labtest/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/java/com/example/labtest/model/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/app/src/test/java/com/example/labtest/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/androidTest/java/com/example/testlab2/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/java/com/example/testlab2/controller/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/java/com/example/testlab2/model/MusicTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/java/com/example/testlab2/model/MyMusicCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/app/src/test/java/com/example/testlab2/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testlab2/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RateMaPlate-andi/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../RateMaPlate-andi/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RateMaPlate-andi/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../RateMaPlate-andi/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RateMaPlate-andi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RateMaPlate-andi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/java/com/example/ratemaplate/MatchesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/java/com/example/ratemaplate/MatchesActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/java/com/example/ratemaplate/RegisterLoginPages/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/java/com/example/ratemaplate/RegisterLoginPages/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/java/com/example/ratemaplate/adapters/RecyclerViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/java/com/example/ratemaplate/adapters/RecyclerViewAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/res/layout/matches_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/res/layout/matches_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/res/layout/login_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RateMaPlate-andi/app/src/main/res/layout/login_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratemaplate.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ratemaplate.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="67">
-              <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -129,18 +197,19 @@
       <updated>1551831327535</updated>
       <workItem from="1551831331432" duration="9245000" />
       <workItem from="1552480726532" duration="305000" />
-      <workItem from="1552843959998" duration="452000" />
+      <workItem from="1552843959998" duration="755000" />
+      <workItem from="1552943166615" duration="529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10002000" />
+    <option name="totallyTimeSpent" value="10834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="64" width="893" height="770" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28440368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28440368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -173,7 +242,7 @@
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
-          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
         </state>
       </provider>
     </entry>
