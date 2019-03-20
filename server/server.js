@@ -5,7 +5,7 @@ var app = express();
 var db = new sqlite.Database('ratemaplate.sqlite3');
 
 app.get('/create_user', function (req, res) {
-    let insert_user = 'INSERT INTO User VALUES (?, ?, ?);';
+    let insert_user = 'INSERT INTO User VALUES (?, ?, ?, "user");';
 
     //TODO: Change to req.body
     let email = req.query.email;
@@ -28,30 +28,31 @@ app.get('/create_user', function (req, res) {
         return;
     }
 
-    //
-    console.log(email);
-    console.log(username);
-    console.log(password);
-
-    if (check_email(email)) {
-        res.send('{response: "This email is already in use", error: true}');
-        return;
-    }
-
-    if (check_username(username)) {
-        res.send('{response: "This username is already in use", error: true}');
-        return;
-    }
-
-    db.run(insert_user, [email, username, password], function(err) {
+    db.get('SELECT COUNT(email) AS count FROM User WHERE email=?', [email], function(err, row) {
         if (err) throw err;
-    });
 
-    res.send('{response: "User created successfully", error: false}');
+        if (row.count != 0) {
+            res.send('{response: "This email is already in use", error: true}');
+        } else {
+            db.get('SELECT COUNT(username) AS count FROM User WHERE username=?', [username], function(err, row) {
+                if (err) throw err;
+
+                if (row.count != 0) {
+                    res.send('{response: "This username is already in use", error: true}');
+                } else {
+                    db.run(insert_user, [email, username, password], function(err) {
+                        if (err) throw err;
+                    });
+
+                    res.send('{response: "User created successfully", error: false}');
+                }
+            });
+        }
+    });
 });
 
 app.get('/login_user', function(req, res) {
-    let sql = "SELECT COUNT(*) AS count FROM User WHERE email=? AND password=?;";
+    let sql = "SELECT COUNT(*) AS count, account_type FROM User WHERE email=? AND password=?;";
 
     let email = req.query.email;
     let password = req.query.password;
@@ -60,34 +61,14 @@ app.get('/login_user', function(req, res) {
         if (err) throw err;
 
         rows.forEach(function(row) {
+            console.log(row);
             if (row.count > 0) {
-                res.send('{response: "Logged in", error: false}');
+                res.send('{response: "Logged in", error: false, account_type: ' + row.account_type + '}');
             } else {
                 res.send('{response: "Invalid email or password", error: true}');
             }
         });
     })
 });
-
-function check_email(email) {
-    let sql = 'SELECT COUNT(email) AS count FROM User WHERE email=?';
-    var error;
-    db.get(sql, [email], function(err, row) {
-        if (err) throw err;
-
-        error = row.count != 0;
-    });
-    return error;
-}
-
-function check_username(username) {
-    let sql = 'SELECT COUNT(username) AS count FROM User WHERE username=?';
-    var error;
-    db.get(sql, [username], function(err, row) {
-        if (err) throw err;
-        error = row.count != 0;
-    });
-    return error;
-}
 
 app.listen(8080);
